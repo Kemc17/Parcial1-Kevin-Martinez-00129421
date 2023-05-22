@@ -1,4 +1,4 @@
-package com.kemc.drink_tracker
+package com.kemc.drink_tracker.ui.drink
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.cardview.widget.CardView
 import androidx.navigation.findNavController
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.kemc.drink_tracker.R
 
 class DrinkListFragment : Fragment() {
     private lateinit var actionToDrink: CardView

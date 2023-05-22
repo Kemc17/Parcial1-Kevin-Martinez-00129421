@@ -1,21 +1,21 @@
-package com.kemc.drink_tracker
+package com.kemc.drink_tracker.ui.drink
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.kemc.drink_tracker.R
 
 
-class NewDrinkFragment : Fragment() {
-
+class DrinkFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_new_drink, container, false)
+        return inflater.inflate(R.layout.fragment_drink, container, false)
     }
 
 }
