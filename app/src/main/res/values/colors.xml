@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+<!--New colors-->
+
+    <color name="background">#D6B6E7</color>
+    <color name="input">#F7FCFC</color>
+    <color name="card">#583BB0</color>
+    <color name="buttom">#2A3C7E</color>
 </resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_width">380dp</dimen>
+    <dimen name="corneradius_card">20dp</dimen>
+    <dimen name="layour_heigth">150dp</dimen>
+    <dimen name="marginTop">20dp</dimen>
+    <dimen name="tittle_size">50sp</dimen>
+    <dimen name="Margin_top_newDrink">200dp</dimen>
+    <dimen name="Input_size">392dp</dimen>
+    <dimen name="pdTop">15dp</dimen>
+    <dimen name="pdBottom">15dp</dimen>
+    <dimen name="pdtop">10dp</dimen>
+    <dimen name="pdBottom_new">15dp</dimen>
+</resources>

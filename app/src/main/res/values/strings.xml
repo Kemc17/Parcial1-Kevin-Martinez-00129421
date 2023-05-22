@@ -2,4 +2,10 @@
     <string name="app_name">drink-tracker</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_drinks">Drinks</string>
+    <string name="tittle_buttom">Add new drink</string>
+    <string name="new_drink">New Drink</string>
+    <string name="input_name">Name</string>
+    <string name="input_ingredients">Ingredients</string>
+    <string name="name_buttom">Crear</string>
 </resources>

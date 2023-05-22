@@ -6,36 +6,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center_horizontal"
     android:orientation="vertical"
+    android:background="@color/background"
     tools:context=".ui.drink.NewDrinkFragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Drink"
-        android:textSize="50dp"
-        android:layout_marginTop="20dp"/>
+        android:text="@string/new_drink"
+        android:textSize="@dimen/tittle_size"
+        android:layout_marginTop="@dimen/Margin_top_newDrink"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textField_name"
-        android:layout_width="392dp"
+        android:layout_width="@dimen/Input_size"
         android:layout_height="wrap_content"
-        android:hint="Name"
-        android:paddingTop="15dp"
-        android:paddingBottom="15dp">
+        android:hint="@string/input_name"
+        android:paddingTop="@dimen/pdTop"
+        android:paddingBottom="@dimen/pdBottom">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textInput_name"
+            android:backgroundTint="@color/input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textField_ingredients"
-        android:layout_width="392dp"
+        android:layout_width="@dimen/Input_size"
         android:layout_height="wrap_content"
-        android:hint="Ingredients"
-        android:paddingTop="10dp"
-        android:paddingBottom="15dp">
+        android:hint="@string/input_ingredients"
+        android:paddingTop="@dimen/pdtop"
+        android:paddingBottom="@dimen/pdBottom_new">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textInput_ingredients"
@@ -48,7 +50,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Crear"
-        android:textColor="@color/black" />
+        android:text="@string/name_buttom"
+        android:backgroundTint="@color/buttom"
+        android:textColor="@color/white"/>
 
 </LinearLayout>
